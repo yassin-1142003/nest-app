@@ -1,0 +1,705 @@
+{
+    "istiq": [
+        {
+            "id": 1,
+            "url": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Americano",
+            "qiymet": "4.90 ₼"
+        },
+        {
+            "id": 2,
+            "url": "https://globalassets.starbucks.com/assets/b635f407bbcd49e7b8dd9119ce33f76e.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Caffè Latte",
+            "qiymet": "5.70 ₼"
+        },
+        {
+            "id": 3,
+            "url": "https://globalassets.starbucks.com/assets/915736da018842e788147f7eab73db73.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Caffè Mocha",
+            "qiymet": "6.60 ₼"
+        },
+        {
+            "id": 4,
+            "url": "https://globalassets.starbucks.com/assets/5c515339667943ce84dc56effdf5fc1b.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Cappuccino",
+            "qiymet": "5.70 ₼"
+        },
+        {
+            "id": 5,
+            "url": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Caramel Macchiato",
+            "qiymet": "5.10 ₼"
+        },
+        {
+            "id": 109,
+            "url": "https://globalassets.starbucks.com/assets/fedee22e49724cd09fbcc7ee2e567377.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Flat White",
+            "qiymet": "6.20 ₼"
+        },
+        {
+            "id": 6,
+            "url": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Espresso",
+            "qiymet": "3.90 ₼"
+        },
+        {
+            "id": 7,
+            "url": "https://globalassets.starbucks.com/assets/e9330b18ae524e69bdcbe97460d6f5bb.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Espresso Con Panna",
+            "qiymet": "5.80 ₼"
+        },
+        {
+            "id": 8,
+            "url": "https://globalassets.starbucks.com/assets/26495f2a8b644fe8960dd74e1891b7b7.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Espresso Macchiato",
+            "qiymet": "5.20 ₼"
+        }
+    ],
+    "istic": [
+        {
+            "id": 27,
+            "url": "https://globalassets.starbucks.com/assets/49bf4333e9d048498a59a5a2b958165f.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Chai Tea",
+            "qiymet": "5.60 ₼"
+        },
+        {
+            "id": 28,
+            "url": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Chai Tea Latte",
+            "qiymet": "6.00 ₼"
+        },
+        {
+            "id": 29,
+            "url": "https://globalassets.starbucks.com/assets/6a59c09bb55c42f8a6a970e73c22caeb.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Earl Grey",
+            "qiymet": "5.00 ₼"
+        },
+        {
+            "id": 30,
+            "url": "https://globalassets.starbucks.com/assets/919eb07194f44a0b842c0260c3a286d8.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "English Breakfast",
+            "qiymet": "6.20 ₼"
+        },
+        {
+            "id": 31,
+            "url": "https://globalassets.starbucks.com/assets/a5e64777b3cc412e9239b8a37328cb37.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Mint Blend",
+            "qiymet": "7.00 ₼"
+        },
+        {
+            "id": 32,
+            "url": "https://globalassets.starbucks.com/assets/8b1b6d808cca4787afd2b30cf8dd5676.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Speermint Green",
+            "qiymet": "7.30 ₼"
+        }
+    ],
+    "qarisiq": [
+        {
+            "id": 19,
+            "url": "https://globalassets.starbucks.com/assets/cacdf793d82648329cfec7df33148da4.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Caramel Frappuccino",
+            "qiymet": "8.20 ₼"
+        },
+        {
+            "id": 20,
+            "url": "https://globalassets.starbucks.com/assets/e2ffa95d3c364d94b5dba029263bbf0e.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Chocolate Frappuccin",
+            "qiymet": "8.60 ₼"
+        },
+        {
+            "id": 21,
+            "url": "https://globalassets.starbucks.com/assets/72b70f11fe984732af4d8e539f53ca2d.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Coffee Frappuccino",
+            "qiymet": "6.80 ₼"
+        },
+        {
+            "id": 22,
+            "url": "https://globalassets.starbucks.com/assets/fe3131c518c34593938b32a67486fda0.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Java Chip Frappuccino",
+            "qiymet": "7.90 ₼"
+        },
+        {
+            "id": 23,
+            "url": "https://globalassets.starbucks.com/assets/70198375bb0a442f8792437b5d1df972.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Mocha Frappuccino",
+            "qiymet": "7.40 ₼"
+        },
+        {
+            "id": 24,
+            "url": "https://globalassets.starbucks.com/assets/abd48a12ed76482790f2079db420f2c4.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Strawberry Frappucci",
+            "qiymet": "8.60 ₼"
+        },
+        {
+            "id": 25,
+            "url": "https://globalassets.starbucks.com/assets/b8f963bfe65b4117af17d316e6bc3bc8.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Vanilla Frappuccin",
+            "qiymet": "7.00 ₼"
+        },
+        {
+            "id": 26,
+            "url": "https://globalassets.starbucks.com/assets/e7b786fdbe544d43a5d471f9ef512047.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Chocolate Frappuccin",
+            "qiymet": "7.80 ₼"
+        },
+        {
+            "id": 326,
+            "url": "https://globalassets.starbucks.com/assets/17f8efcbdbc8476e9992503d4ee19f95.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Matcha Crème",
+            "qiymet": "7.50 ₼"
+        }
+    ],
+    "soyuqq": [
+        {
+            "id": 9,
+            "url": "https://globalassets.starbucks.com/assets/b5ee0554cdd64959a86530922cea7991.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Iced Caramel Latte",
+            "qiymet": "7.50 ₼"
+        },
+        {
+            "id": 10,
+            "url": "https://globalassets.starbucks.com/assets/921a409e6f55407da52eee4c8ad13ada.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Iced Caffè Americano",
+            "qiymet": "6.40 ₼"
+        },
+        {
+            "id": 11,
+            "url": "https://globalassets.starbucks.com/assets/5d1720adf5e7485a9d36d508b7b1be06.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Iced Caffè Latte",
+            "qiymet": "6.80 ₼"
+        },
+        {
+            "id": 12,
+            "url": "https://globalassets.starbucks.com/assets/0360378c6e774cc3a38d870fc75d5462.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Iced Caffè Mocha",
+            "qiymet": "7.30 ₼"
+        },
+        {
+            "id": 13,
+            "url": "https://globalassets.starbucks.com/assets/a3368f72724f4b70950ac39fb23b5836.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Iced Chocolate Mocha",
+            "qiymet": "7.80 ₼"
+        },
+        {
+            "id": 14,
+            "url": "https://globalassets.starbucks.com/assets/363835b1db024636adeb4089ebb96291.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Caramel Macchiato",
+            "qiymet": "5.90 ₼"
+        }
+    ],
+    "soyuqc": [
+        {
+            "id": 227,
+            "url": "https://globalassets.starbucks.com/assets/98c8bafe1e2241f3ad02212eca2376e3.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Chai Tea Latte",
+            "qiymet": "5.80 ₼"
+        },
+        {
+            "id": 228,
+            "url": "https://globalassets.starbucks.com/assets/08f75b01cd3c46af9d8665c5912341e7.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Passion Tango Tea",
+            "qiymet": "6.40 ₼"
+        },
+        {
+            "id": 229,
+            "url": "https://globalassets.starbucks.com/assets/730f5d78c6304eda88c960734fb1a8a4.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Green Tea Lemonade",
+            "qiymet": "6.80 ₼"
+        },
+        {
+            "id": 230,
+            "url": "https://globalassets.starbucks.com/assets/9d6748ad5ded472da7a03d0d99a1f8a7.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Matcha Lemonade",
+            "qiymet": "6.20 ₼"
+        },
+        {
+            "id": 231,
+            "url": "https://globalassets.starbucks.com/assets/f56f2f6798504d72812581fbd3c326b8.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Iced Black Tea",
+            "qiymet": "7.00 ₼"
+        },
+        {
+            "id": 32,
+            "url": "https://globalassets.starbucks.com/assets/c21355c84f60481da265614667b168d8.jpg?impolicy=1by1_wide_topcrop_630",
+            "adi": "Tea Latte",
+            "qiymet": "7.30 ₼"
+        }
+    ],
+    "dessertler": [
+        {
+            "id": 33,
+            "url": "https://globalassets.starbucks.com/assets/e1a4f06b1e9c42f9833ea81409119eb9.jpg?impolicy=1by1_medium_630",
+            "adi": "Balqabaqlı Muffin",
+            "qiymet": "5.30 ₼"
+        },
+        {
+            "id": 34,
+            "url": "https://globalassets.starbucks.com/assets/7d4665b4af2541e387336966c6e3f1fb.jpg?impolicy=1by1_medium_630",
+            "adi": "Qaragiləli Muffin",
+            "qiymet": "5.70 ₼"
+        },
+        {
+            "id": 35,
+            "url": "https://globalassets.starbucks.com/assets/94a08a1ea84f465f86fdfe22c035598c.jpg?impolicy=1by1_medium_630",
+            "adi": "Qırmızı Kek",
+            "qiymet": "4.80 ₼"
+        },
+        {
+            "id": 36,
+            "url": "https://globalassets.starbucks.com/assets/f827715797044a78bb79b86728a079cf.jpg?impolicy=1by1_medium_630",
+            "adi": "Şokoladlı Brownie",
+            "qiymet": "5.90 ₼"
+        },
+        {
+            "id": 37,
+            "url": "https://globalassets.starbucks.com/assets/bb65a9c21ce34ad5b9f99f58615b8211.jpg?impolicy=1by1_medium_630",
+            "adi": "Giləmeyvəli Parfe",
+            "qiymet": "7.80 ₼"
+        },
+        {
+            "id": 38,
+            "url": "https://globalassets.starbucks.com/assets/738d89c837874a4ab31044808764b6fb.jpg?impolicy=1by1_medium_630",
+            "adi": "Simit",
+            "qiymet": "3.20 ₼"
+        },
+        {
+            "id": 39,
+            "url": "https://globalassets.starbucks.com/assets/e39e1d6044634535a027301d982c5842.jpg?impolicy=1by1_medium_630",
+            "adi": "Kruasan",
+            "qiymet": "4.50 ₼"
+        },
+        {
+            "id": 40,
+            "url": "https://globalassets.starbucks.com/assets/f245bb86e2b74e42b8e6888f886930ef.jpg?impolicy=1by1_medium_630",
+            "adi": "Darçınlı Kek",
+            "qiymet": "5.00 ₼"
+        },
+        {
+            "id": 141,
+            "url": "https://globalassets.starbucks.com/assets/eef689b61a0b4e71bfab30a20f89b589.jpg?impolicy=1by1_medium_630",
+            "adi": "Bananlı Kek",
+            "qiymet": "5.50 ₼"
+        }
+    ],
+    "avadanliqlar": [
+        {
+            "id": 41,
+            "url": "https://mokko.az/images/thumbnails/270/270/detailed/9/2c1a1d9de12311e9a62cacb57d58667e_223d20bce17011e9a62dacb57d58667e.jpg",
+            "adi": "DELONGHİ EC 685.R",
+            "qiymet": "519.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat DeLonghi EC 685 R – 15 sm eninin sayəsində məkana rahatlıqla uyğunlaşmaqla yanaşı, həm də interyeri çox gözəl tamamlayacaq. “Kapuçino” sisteminin sayəsində Siz özünüzü hava köpüyü ilə əzizləyəcəksiniz. Bundan başqa, bu sistemin köməyi ilə həmçinin isti çay da hazırlamaq olar. Bu model həm kağız örtükdə (tablet) olan,həm də üyüdülmüş qəhvənin hazırlanması üçün yararlıdır. Eyni vaxtda iki porsiya qəhvənin hazırlanması üçün nəzərdə tutulan filtrin sayəsində isə, dostunuz ilə birgə qəhvədən həzz almaq üçün gözləməyinizə ehtiyac qalmayacaq."
+        },
+        {
+            "id": 42,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/2c1a1d9ee12311e9a62cacb57d58667e_223d20bde17011e9a62dacb57d58667e.jpg",
+            "adi": "DELONGHİ EC 850.M",
+            "qiymet": "899.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat DeLonghi EC 850 M – zövqünüzə uyğun olan istənilən qəhvəni cəld və keyfiyyətli hazırlaya biləcək şəxsi baristanıza çevriləcəkdir. Qəhvə hazırlamaq üçün üyüdülmüş və ya xüsusi kağız örtükdəki (tablet) qəhvədən istifadə etmək olar. Qəhvədəmləyən Sizin əvəzinizə hər bir şeyin qayğısına qalacaq, avtomatik işəsalınma funksiyasının sayəsində səhər yuxudan oyacanacağınıa yaxın vaxtda asanlıqla qəhvə hazırlayacaq. Bundan başqa, avadanlıq damcıların yığılması üçün çıxarılıb-taxılan tabaq, iki ədəd pompa ilə təchiz olunub ki, bu da yeni vaxtda “Espresso” və “Kapuçino”nun hazırlanmasına imkan verir."
+        },
+        {
+            "id": 43,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/2c1a1d9fe12311e9a62cacb57d58667e_223d20c3e17011e9a62dacb57d58667e.jpg",
+            "adi": "DELONGHİ ECI 341.BK",
+            "qiymet": "449.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat DeLonghi EC 341BK elə işlənib ki, sadəliyi, funksionallığı və üslubu özündə maksimal dərəcədə birləşdirə bilsin. Kapuçino, espresso, latte – istənilən şıltaqlığınız yerinə yetiriləcək və artıq bunun üçün ən yaxın məsafədə yerləşən qəhvəxananı axtarmağınıza ehtiyac qalmayacaq. Fincanlar üçün nəzərdə tutulmuş xüsusi platforma qəhvənin dadı və ətrinin maksimal dərəcədə hiss olunmasına imkan verəcək. Bu imkan Sizi elə indi və cəlbedici qiymətə gözləyir!"
+        },
+        {
+            "id": 44,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/a7500609880e11ea92a0685d43a36857_a7500633880e11ea92a0685d43a36857.jpg",
+            "adi": "SEMİ-AUTOMATİC 4LT",
+            "qiymet": "3245.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat 15 sm eninin sayəsində məkana rahatlıqla uyğunlaşmaqla yanaşı, həm də interyeri çox gözəl tamamlayacaq. “Kapuçino” sisteminin sayəsində Siz özünüzü hava köpüyü ilə əzizləyəcəksiniz. Bundan başqa, bu sistemin köməyi ilə həmçinin isti çay da hazırlamaq olar. Bu model həm kağız örtükdə (tablet) olan,həm də üyüdülmüş qəhvənin hazırlanması üçün yararlıdır. Eyni vaxtda iki porsiya qəhvənin hazırlanması üçün nəzərdə tutulan filtrin sayəsində isə, dostunuz ilə birgə qəhvədən həzz almaq üçün gözləməyinizə ehtiyac qalmayacaq."
+        },
+        {
+            "id": 45,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/a7500611880e11ea92a0685d43a36857_a750062c880e11ea92a0685d43a36857.jpg",
+            "adi": "PHİLİPS EP3246/70",
+            "qiymet": "1750.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Düyməni bir dəfə basmaqla espresso, qəhvə, kapuçino və latte makkiato kimi sevimli içkilərinizi hazırlayın. LatteGo kapuçinatoru Sizə ən zərif süd köpüklü dadlı içkiləri bəxş edəcək. Bu mexanizm cəmi 15 saniyəyə quraşdırılır və təmizlənir. Olduqca zərif süd köpüklü qəhvədən həzz alın. LatteGo kapuçinatoru südü yüksək sürətdə dairəvi kamerada çalır, sonra isə zərif köpüyü heç yerə sıçratmadan və optimal temperaturda birbaşa fincana ötürür. Təzə üyüdülən dənələrdən hazırlanmış qəhvə təkrarolunmaz ətirə və dada malikdir. Sensorlu sadə idarəetmə paneli sevimli qəhvəni asanlıqla seçməyə imkan verir."
+        },
+        {
+            "id": 46,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/a750060d880e11ea92a0685d43a36857_a750060e880e11ea92a0685d43a36857.png",
+            "adi": "PHİLİPS EP2224/40",
+            "qiymet": "1170.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "İntellektual dəmləmə sisteminin köməyi ilə ideal temperaturda və təzə üyüdülmüş dənlərdən hazırlanan qəhvənin möhtəşəm dadından və ətrindən həzz alın. Klassik kapuçinator Sizə olduqca dadlı kapuçino, latte və makkiato hazırlamağa imkan verəcək. Klassik kapuçinator kapuçinonuz üçün zərif südlü köpüyü buxarın köməyi ilə hazırlamaq üçün istifadə olunur. Bundan başqa, klassik kapuçinatorun təmizlənməsi üçün çox vaxt tələb olunmur, ona görə ki o, sadəcə iki detaldan ibarətdir. Bir toxunuş ilə təzə üyüdülmüş dənlərdən təkrarolunmaz ətirli və dadlı qəhvənin hazırlanması. Sadə sensorlu displey sevdiyiniz qəhvəni əziyyətsiz seçməyə imkan verəcək. Uzunömürlü keramik dəyirman daşları 12 rejimi mövcuddur ki, Siz lazım olan üyütməni seçə biləsiniz – olduqca xırda üyütmədən iri üyütməyə qədər. Aroma Extract sistemi intellektual rejimdə dəmləmə temperaturu ilə qəhvə ətrinin ntensivliyi arasındakı balansı tapır və suyun temperaturunu 90 və 98 °C arasında saxlayır və suyun miqdarını tənzimləyir ki, Siz hər zaman ən dadlı qəhvədən həzz alasınız. Dəmləmə qrupu – istənilən qəhvə maşınının əsas elementidir, hansı ki müntəzəm qaydada təmizlənməlidir. Çıxarılıb taxılan dəmləmə qrupunu sadəcə axar suyun altında yaxalayaraq təmizləmək mümkündür. Maşını ideal vəziyyətdə saxlamaq heç vaxt bu qədər asan olmamışdır – bu avtomatik proqram Sizi ərpin təmizlənməsi zərurəti haqqında xəbərdar edir. Siz evinizdəki suyun sərtliyinə uyğun olaraq bildirişlərin əmələ gəlmə tezliyini kökləyə bilərsiniz. Yeni növün hermetik konstruksiyası qəhvə dənələrinin təravəti və ətrini qoruyub saxlayır, həmçinin dəyirman daşlarının fəaliyyətini daha da səssiz edir."
+        },
+        {
+            "id": 47,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/1dfc9baa82f811ea92a0685d43a36857_1dfc9bab82f811ea92a0685d43a36857.jpg",
+            "adi": "SLAYER STEAM EP",
+            "qiymet": "29900.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "derece": "Orta",
+            "hecmi":"1.25",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat 15 sm eninin sayəsində məkana rahatlıqla uyğunlaşmaqla yanaşı, həm də interyeri çox gözəl tamamlayacaq. “Kapuçino” sisteminin sayəsində Siz özünüzü hava köpüyü ilə əzizləyəcəksiniz. Bundan başqa, bu sistemin köməyi ilə həmçinin isti çay da hazırlamaq olar. Bu model həm kağız örtükdə (tablet) olan,həm də üyüdülmüş qəhvənin hazırlanması üçün yararlıdır. Eyni vaxtda iki porsiya qəhvənin hazırlanması üçün nəzərdə tutulan filtrin sayəsində isə, dostunuz ilə birgə qəhvədən həzz almaq üçün gözləməyinizə ehtiyac qalmayacaq."
+        },
+        {
+            "id": 48,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/DSC_0622_%E5%89%AF%E6%9C%AC.jpg",
+            "adi": "SHOP GRİNDER",
+            "qiymet": "345.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat 15 sm eninin sayəsində məkana rahatlıqla uyğunlaşmaqla yanaşı, həm də interyeri çox gözəl tamamlayacaq. “Kapuçino” sisteminin sayəsində Siz özünüzü hava köpüyü ilə əzizləyəcəksiniz. Bundan başqa, bu sistemin köməyi ilə həmçinin isti çay da hazırlamaq olar. Bu model həm kağız örtükdə (tablet) olan,həm də üyüdülmüş qəhvənin hazırlanması üçün yararlıdır. Eyni vaxtda iki porsiya qəhvənin hazırlanması üçün nəzərdə tutulan filtrin sayəsində isə, dostunuz ilə birgə qəhvədən həzz almaq üçün gözləməyinizə ehtiyac qalmayacaq."
+        },
+        {
+            "id": 49,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/3_a548-vw.jpg",
+            "adi": "HAND GRİNDER",
+            "qiymet": "31.10",
+            "gucu":"1200",
+            "ceki":"0.9 kq",
+            "hecmi":"0.5",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Bu model istənilən cəhətdən yüksək keyfiyyətə qiymət verənlərin zövqünə uyğun olacaq. Bu qəhvədəmləyən aparat LatteCrema avtomatik firma kapuçinatoru ilə komplektləşdirilir ki, bu da köpüyün hündürlüyü və qatılığını əl ilə tənzimləməyə imkan verir. İdarəetmə paneli zövqlü görünməklə yanaşı, həm də bir toxunuş ilə arzunuzu yerinə yetirməyə qadirdir, bunun kapuçino, latte və yaxud latte-makiato olmasından asılı olmayaraq."
+        },
+        {
+            "id": 50,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/2c1a1d91e12311e9a62cacb57d58667e_cd07cdcfe15011e9a62dacb57d58667e.jpg",
+            "adi": "DELONGHİ ECAM 45.764",
+            "qiymet": "2690.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Bu model istənilən cəhətdən yüksək keyfiyyətə qiymət verənlərin zövqünə uyğun olacaq. Bu qəhvədəmləyən aparat LatteCrema avtomatik firma kapuçinatoru ilə komplektləşdirilir ki, bu da köpüyün hündürlüyü və qatılığını əl ilə tənzimləməyə imkan verir. İdarəetmə paneli zövqlü görünməklə yanaşı, həm də bir toxunuş ilə arzunuzu yerinə yetirməyə qadirdir, bunun kapuçino, latte və yaxud latte-makiato olmasından asılı olmayaraq. "
+        },
+        {
+            "id": 51,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/2c1a1d94e12311e9a62cacb57d58667e_cd07cdd3e15011e9a62dacb57d58667e.jpg",
+            "adi": "DELONGHİ ESAM 6904.M",
+            "qiymet": "4990.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvə aparatı Delonghi ESAM 6904 Sizin qəhvə ritualınızı tam estetik həzzə çevirəcək. Model həm dənli, həm də üyüdülmüş qəhvə ilə işləyə bilər. Daxildə quraşdırılan səssiz qəhvüyüdən içkinin dadı və ətrini tam həcmdə çatdırır, 13 üyütmə rejimindən birini seçməklə isə istənilən konsistensiyadan olan qəhvəni hazırlamaq mükündür. Həmçinin, zövqə və tündlüyə görə tənzimləmək də mümkündür. İş arası fasilə zamanı qəhvə aparatı özbaşına gözləmə rejiminə keçir, və bununla da istehlak olunan elektrik enerjisinin miqdarını azaldır."
+        },
+        {
+            "id": 52,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/2c1a1d9be12311e9a62cacb57d58667e_223d20bae17011e9a62dacb57d58667e.jpg",
+            "adi": "DELONGHİ EC 685.BK",
+            "qiymet": "539.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Praktikliyi sevirsiniz və vaxta qənaət edirsiniz? Belə olan halda DeLonghi EC 685 BK – məhz Sizə ideal şəkildə uyğun olan modeldir. Əhvalınıza uyğun seçim edin: kiçik porsiyalarda və ya iri stəkanda olan qəhvədən həzz almaq. Qəhvədəmləyən aparat DeLonghi çıxarılıb-taxılan altlıq ilə təchiz edilib ki, bu da istənilən şıltaqlığınıza uyğunlaşmağa imkan verir. Aparat həm üyüdülmüş, həm də kağız paketlərdə (tabletlərdə) olan qəhvənin hazırlanması üçün nəzərdə tutulub. Həmçinin, 9, 30 dəqiqə, və ya 3 saatdan sonra avtomatik sönmə funksiyası da mövcuddur. "
+        },
+        {
+            "id": 53,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/cb33a38449da11ea8b987ee7bc5febea_6fe8695049db11ea8b987ee7bc5febea.jpg",
+            "adi": "DELONGHİ ESAM 3500",
+            "qiymet": "1450.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Qəhvədəmləyən aparat Delonghi ESAM 3500.S qəhvə ilə bağlı istənilən şıltaqlığınızı bir neçə saniyə ərzində yerinə yetirəcək, kiçik displey ilə düyməli idarəetmə paneli isə maşın ilə çalışmanı daha sadə və xoş edəcək. İstədiyiniz içkinin reseptini seçin, zövqünüzə görə optimal tündlük parametrləri, su həcmi və temperaturu təyin edin. Əgər Siz südlü qəhfə istəyirsinizsə, aparatın daxilində quraşdırılan kapuçinator köpüyü müstəqil qaydada çalacaq, optimal istiliyi seçəcək və artıq sıçramalardan azad edəcək. Maşın heç bir əziyyət verməyəcək, ona görə ki ərpdən təmizlənərək daxili kanalları özbaşına yumağı bacarır."
+        },
+        {
+            "id": 54,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/a7500609880e11ea92a0685d43a36857_a7500633880e11ea92a0685d43a36857.jpg",
+            "adi": "PHİLİPS EP2030/10",
+            "qiymet": "1330.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Olduqca zərif süd köpüklü qəhvədən zövq alın. Kapuçinator LatteGo südü yüksək sürət ilə dairəvi kameranın içində çalır, sonra isə zərif köpüyü heç yerə sıçratmadan, optimal temperatur ilə birbaşa fincana ötürür. İdeal temperatur və ətrə qarşı çıxmaq çətindir. Aroma Extract sistemi intellektual rejimdə dəmləmə temperaturu ilə qəhvə ətrinin intensivliyi arasındakı balansı tapır, suyun temperaturunu 90 və 98 °C arasında saxlayır və suyun miqdarını tənzimləyir ki, Siz hər zaman ən dadlı qəhvədən həzz alasınız. Sevimli qəhvənizi istənilən hadisəyə görə hazırlayın: gümrahlaşdırıcı espesso, klassik qəhvə və ya kapuçino – tamami ilə avtomatlaşdırılmış espresso – qəhvə maşınının köməyi ilə Siz tez bir zamanda və heç bir əziyyət çəkmədən ideal qəhvə dəmləyəcəksiniz. Uzunömürlü keramik dəyirman daşlarının 12 rejimi mövcuddur ki, Siz lazım olan üyütməni seçə biləsiniz – olduqca xırda üyütmədən iri üyütməyə qədər. Qəhvəüyüdənlərin dəyirman daşları kifayət qədər möhkəm 100% keramikadan hazırlanıb, istismar müddəti isə ən azından 20 000 təravətli və ətirli qəhvənin açılması üçün kifayət edəcək. Südün ötürülməsi sistemi iki elementdən ibarətdir və hər hansı borucuğu və ya gizli komponenti mövcu deyil. Onu sadəcə kranın altında və ya qabyuyan maşında yumaqla* 15 saniyədən az müddət ərzində təmizləmək olar. Patentləşdirilmiş həll – AquaClean su filtri – avtomatik qəhvə maşınının maksimal dərəcədə səmərəli istifadəsinə zəmanət verir. Hər dəfə xatırlatma siqnalı əks olunan zaman filtri yenisi ilə əvəz etdikdə, Siz ərpi təmizləmədən, qəhvə üçün nəzərdə tutulan suyu qatışıqlardan qoruyaraq 5000* fincan qəhvə hazırlaya bilərsiniz. Bundan başqa, qəhvə maşınına AquaClean filtrini quraşdıran zaman ərpdən təmizlənməyə dair bildirişlər avtomatik qaydada sönür. *istifadə olunan suyun sərtliyindən asılı olaraq, göstəricilər fərqli ola bilər. Dəmləmə qrupu – istənilən qəhvə maşınının əsas elementidir, hansı ki müntəzəm qaydada təmizlənməlidir. Çıxarılıb taxılan dəmləmə qrupunu sadəcə axar suyun altında yaxalayaraq təmizləmək mümkündür. Yeni tip hermetik konstruksiya qəhvə dənələrinin təravətini və ətrini qoruyub saxlayır, həmçinin dəyirman daşlarının fəaliyyətini daha da səssiz edir. LatteGo kapuçinatoru (və ya klassik kapuçinator), damçı üçün altlığı və qəhvə xıltısı üçün nəzərdə tutulan konteyneri qabyuyan maşında yumaq olar. Bu rahat həll təmizliyi qorumağa və vaxtınıza qənaət etməyə imkan verəcək"
+        },
+        {
+            "id": 55,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/2c1a1d96e12311e9a62cacb57d58667e_91c9d931e14911e9a62cacb57d58667e.jpg",
+            "adi": "DELONGHİ ECAM 23.460",
+            "qiymet": "1890.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "derece": "Orta",
+            "hecmi":"1.25",
+            "sayi": 1,
+            "tesviri": "Qəhvə aparatı DeLonghi ECAM 23.460 ilə birgə sevimli qəhvəni hazırlamaq həm asan, həm də xoşdur. Maşın porsiyanın ölçüsünü, və hətta tündlüyünü belə seçməyə imkan verir. Daxildə quraşdırılan “LatteCrema” sistemi düyməni basmaqla yüngül süd köpüklü içkini hazırlamağa imkn verir. Həmçinin, cihazın vəziyyətinə görə narahat olmağa da ehtiyac qalmayacaq, vaxtı çatan zaman qəhvə aparatı xüsusi siqnal vasitəsi ilə Sizi xəbərdar edəcək. Vaxtına qənaət etməyi sevənlər üçün eyni vaxtda iki fincan qəhvə hazırlamaq funksiyası mövcuddur. "
+        },
+        {
+            "id": 56,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/5ba5915c28d811ea8b977ee7bc5febea_65afa73028d811ea8b977ee7bc5febea.jpg",
+            "adi": "LA PAVONİ DOMUS BAR",
+            "qiymet": "1700.00",
+            "gucu":"1200",
+            "ceki":"1.9 kq",
+            "hecmi":"1.25",
+            "derece": "Orta",
+            "sayi": 1,
+            "tesviri": "Bu model istənilən cəhətdən yüksək keyfiyyətə qiymət verənlərin zövqünə uyğun olacaq. Bu qəhvədəmləyən aparat LatteCrema avtomatik firma kapuçinatoru ilə komplektləşdirilir ki, bu da köpüyün hündürlüyü və qatılığını əl ilə tənzimləməyə imkan verir. İdarəetmə paneli zövqlü görünməklə yanaşı, həm də bir toxunuş ilə arzunuzu yerinə yetirməyə qadirdir, bunun kapuçino, latte və yaxud latte-makiato olmasından asılı olmayaraq."
+        }
+    ],
+    "mehsullar": [
+        {
+            "id": 57,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/810cb91e434b11ea8b987ee7bc5febea_750d8b61444711ea8b987ee7bc5febea.jpg",
+            "adi": "MONDO ESPRESSO BAR",
+            "qiymet": "35.00",
+            "kupaj": "80% Arabika / 20% Robusta",
+            "derece": "Orta-tünd",
+            "ceki": "1 KG",
+            "sayi": 1,
+            "tesviri": "Espresso qəhvəsi kiçik qəhvə porsiyaları üçün nəzərdə tutulub və ehtiyac olduqda, kapuçino və ya lattenin hazırlanması üçün süd də əlavə edilə bilər. Güclü, intensiv, balanslaşdırılmış acılıq və turşuluq dərəcəsi bu növün ən seçilmiş xüsusiyyətləridir."
+        },
+        {
+            "id": 58,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/692f0f96c90811e9a628364b50b7ef2d_8d76d692dd6411e9a62bacb57d58667e.jpg",
+            "adi": "MONDO ESPRESSO BEAN",
+            "qiymet": "9.50",
+            "kupaj": "100% ARABİCA",
+            "derece": "Orta",
+            "ceki": "200 GR",
+            "sayi": 1,
+            "tesviri": "Espresso Beans kiçik qəhvə porsiyaları üçün nəzərdə tutulub. Süd əlavə etməklə, kapuçino və ya latte-qəhvənin hazırlanması üçün ideal variant olacaq. Tündlüyü, intensivliyi və dolğun dadı - Mondo EspressoBar qarışığının ən səciyyəvi xüsusiyyətləridir."
+        },
+        {
+            "id": 59,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/692f0f95c90811e9a628364b50b7ef2d_87da201cdc8911e9a629364b50b7ef2d.jpg",
+            "adi": "MONDO BRASIL BEANS",
+            "qiymet": "9.50",
+            "kupaj": "100% ARABİCA",
+            "derece": "Orta",
+            "ceki": "200 GR",
+            "sayi": 1,
+            "tesviri": "Braziliya – arabika qəhvə sortunun istehsalı üzrə ən iri istehsalçı ölkəsidir. “Yülgüldən - ortaya” cisminə malik olan bu Braziliya qəhvəsinin olduqca xoş ətri var və süzgəcdən keçirilən qəhvənin hazırlanması üçün çox münasibdir."
+        },
+        {
+            "id": 60,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/8/1622b4d04bff11ea8b987ee7bc5febea_22895e2d88d511ea92a0685d43a36857.jpg",
+            "adi": "SCARLATTO BEANS",
+            "qiymet": "16.00",
+            "kupaj": "80% ARABİCA/20% ROBUSTA",
+            "derece": "Orta",
+            "ceki": "250 GR",
+            "sayi": 1,
+            "tesviri": "Espresso qəhvəsi kiçik qəhvə porsiyaları üçün nəzərdə tutulub və ehtiyac olduqda, kapuçino və ya lattenin hazırlanması üçün süd də əlavə edilə bilər. Güclü, intensiv, balanslaşdırılmış acılıq və turşuluq dərəcəsi bu növün ən seçilmiş xüsusiyyətləridir."
+        },
+        {
+            "id": 61,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/692f0f97c90811e9a628364b50b7ef2d_8d76d691dd6411e9a62bacb57d58667e.jpg",
+            "adi": "MONDO FILTER COFFEE",
+            "qiymet": "9.50",
+            "kupaj": "100% ARABİCA",
+            "derece": "Orta",
+            "ceki": "200 GR",
+            "sayi": 1,
+            "tesviri": "Reseptin işlənib hazırlanması zamanı düzgün birləşmə tapılana qədər filtr qəhvə klassik qarışığı hər dəfə təkrarən sınaqdan keçirilirdi. Qreypfrut notlu (acı şirinlik) fındıq və şəkər qamışı ətirləri Mondo Filter qəhvəsini unikallaşdırırlar."
+        },
+        {
+            "id": 62,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/692f0f98c90811e9a628364b50b7ef2d_8d76d693dd6411e9a62bacb57d58667e.jpg",
+            "adi": "MONDO MOKA GROUND",
+            "qiymet": "9.50",
+            "kupaj": "100% ARABİCA",
+            "derece": "Orta",
+            "ceki": "200 GR",
+            "sayi": 1,
+            "tesviri": "Aşağı turşuluq dərəcəsi, lakin dolğun dad və ətirə malik olan unikal qəhvə qarışığı özünü olduqca gözəl şokolad, vanil və fındıq tonlarında biruzə verir. Mondo Moka qəhvəsi qurmanlar üçün əsl tapıntıdır."
+        },
+        {
+            "id": 63,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/9/692f0f99c90811e9a628364b50b7ef2d_87da201ddc8911e9a629364b50b7ef2d.jpg",
+            "adi": "MONDO TURKISH COFFEE",
+            "qiymet": "9.50",
+            "kupaj": "100% ARABİCA",
+            "derece": "Orta",
+            "ceki": "200 GR",
+            "sayi": 1,
+            "tesviri": "Mondo Exclusive Turkish qəhvəsi – eksklüziv Arabika qəhvə dənələrinin birləşməsidir. Sürəkli qovurma prosesi qəhvə dənəsini karamel şirinliyi və qovurulmuş fındıq çalarlarının vasitəsi ilə üzə çıxararaq bizi şərq ölkələrinin ənənəsinə cəlb edir."
+        },
+        {
+            "id": 64,
+            "url": "https://mokko.az/images/thumbnails/550/450/detailed/8/589075c5434c11ea8b987ee7bc5febea_091f8e07444711ea8b987ee7bc5febea.jpg",
+            "adi": "BREAKFAST FILTER",
+            "qiymet": "33.00",
+            "kupaj": "70% ARABİCA / 30% ROBUSTA",
+            "derece": "Orta",
+            "ceki": " 1 KG",
+            "sayi": 1,
+            "tesviri": "Espresso qəhvəsi kiçik qəhvə porsiyaları üçün nəzərdə tutulub və ehtiyac olduqda, kapuçino və ya lattenin hazırlanması üçün süd də əlavə edilə bilər. Güclü, intensiv, balanslaşdırılmış acılıq və turşuluq dərəcəsi bu növün ən seçilmiş xüsusiyyətləridir."
+        }
+    ],
+    "bloq": [
+        {
+            "id": 81,
+            "url": "https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-1.jpg",
+            "basliq": "QƏHVƏNİN TARİXİ",
+            "tarix": "10.01.2022",
+            "baxis": "132",
+            "onsoz": "İlk dəfə qəhvə Həbəşistanın cənub qərbində yerləşən Qaffa bölgəsində aşkar olunmuşdur. Sonralar qəhvə Mərkəzi Ərəbistana gətirilir. Yəmənin cənub qərb hissəsində...",
+            "mezmun": "İlk dəfə qəhvə Həbəşistanın cənub qərbində yerləşən Qaffa bölgəsində aşkar olunmuşdur. Sonralar qəhvə Mərkəzi Ərəbistana gətirilir. Yəmənin cənub qərb hissəsində becərilir. Bu günə kimi də Yəmən dünayada ən böyük qəhvə istehsalçısıdır. Hazırda dünayda 50-dən çox ölkədə qəhvə bitkisi növləri becəril  Qəhvənin hazırlanmasının Həbəşistan üsulu ən qədim üsul sayılır. Dənəciklər qovrulduqdan sonra üyüdülür. Üyüdülmüş qəhvə tozu su və qəndlə birlikdə qaynadılır və Yabana adlanan maye hazırlanır. Onu kiçik piyalədə içirlər.  Yohan Volfqanq Göte qəhvə dənəciklərini distilə etmək ideyasını verir. Bu ideyanı həyata keçirən zaman kimyaçı Fridlib Runq kofeini aşkar edir.  Tezliklə qəhvə Fars və Osmanlı İmperiyasına yayılır. 1517-ci ildə Yavuz Sultan Səlimin dövründə türk əsilli Özdəmir paşa Yəməndə içdiyi və çox sevdiyi qəhvəni İstanbula gətirməklə qəhvəni Avropaya ilk gətirən şəxs kimi tarixə düşür. Qahirəyə qəhvə ilk dəfə 1532-ci ildə gətirilimişdir. Paralel olaraq qəhvə Suriya və Kiçik Asiyaya da yayılır. Qəhvənin tətbiqi 1538-ci ildə Yəmənin işğalından sonra daha güclənir. 1554-cü ildə Osmanlı imperiyasında gedən çəkişmələrdən sonra İstanbulda qəhvə evi açılır. Buna baxmayaraq qəhvənin ölkədə rəsmi içki kimi qəbul edilməsi tanzimatın 1839-cu ildə apardığı islahatlara qədər davam etmişdir.  1573-cü ildə Almaniyalı həkim Leonard Rauvolf Aleppoda bu içkinin dadına baxır və 1582-ci ildə onun haqqında yazır.Başqa mənbələrə görə 1592-ci ildə Prospero Alpino tərəfindən qəhvə İtaliyaya gətirilir.  1645-ci ildə Venedihdə, 1650-ci ildə Oksfordda və 1652-ci ildə Londonda qəhvə evləri mövcud idi. Fransada ilk dəfə qəhvə evi 1659-cu ildə tikilir. Vyanada qəhvə evi 1683-cü ildə türklərə qarşı müharibədə ələ keçirilmiş 500 kisə qəhvə qənimətindən sonra açılmışdır. Bu evi türklərin əsiri olmuş polşalı Georg Kolşitçki təşkil etmişdir. Almaniyada qəhvə Fransadan gətirilir və ilk dəfə olaraq 1673-cü ildə Bremendə qəhvə evi təşkil olunur. Az keçməmiş bu bütün Almaniyanı bürüyür və XVII əsrin sonu böyük şəhərlərin əksəriyyətində qəhvə evləri fəaliyyət göstərirdi.  1899-cu ildə isveçrə kimyaçısı Maks Morqentaller qəhvə tozunu düzəldir. Həll olan qəhvə XX əsrin 40-cı illərindən başlayaraq geniş yayılır."
+        },
+        {
+            "id": 82,
+            "url": "https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-3.jpg",
+            "basliq": "ƏN ÇOX QƏHVƏ İÇƏN 10 ÖLKƏ",
+            "tarix": "21.01.2022",
+            "baxis": "345",
+            "onsoz": " Təsəvvür etmək çətindir ki, hər küncdə 'Starbucks', 'Dunkin Donat' və ya 'MacKafe' olan Amerika kimi ölkədən başqa haradasa  daha çox qəhvə içilə bilər. Ancaq adambaşına istehlak edilən ...",
+            "mezmun": "Təsəvvür etmək çətindir ki, hər küncdə 'Starbucks', 'Dunkin Donat' və ya 'MacKafe' olan Amerika kimi ölkədən başqa haradasa  daha çox qəhvə içilə bilər. Ancaq adambaşına istehlak edilən qəhvəni hesablayarkən ABŞ bu baxımdan orta statistik bir ölkə  Dünya üzrə bazarın strateji araşdırmaları ilə məşğul olan 'Euromonitor' şirkəti qəhvə istehlakına dair dünya liderlərinin siyahısını dərc edib  İlk qəhvə içkisi XV əsrdə Yəməndə ortaya çıxdı. Adətən qəhvə ənənələri haqqında ilk assosiasiya Paris qəhvə evləri və ya Roma espresso-barları ilə əlaqələndirilir. Buna baxmayaraq, bu ölkələrin heç biri bu siyahıya daxil olmayıb. Bəs hansı ölkələrdə ən çox qəhvə içilir? 10. BRAZİLİYA – İLDƏ 4,8 KQ (ADAMBAŞI  BRAZİLİYA QƏHVƏSİ  Braziliyada qəhvə - milli içkisidir. Yüz ildən artıqdır ki, Braziliya qəhvə istehsalı üzrə dünya liderinin mövqeyini saxlayır. Odur ki, Braziliyanın siyahıda yer alması təbiidir. Orta braziliyalı ildə 4.38 kq taxıl istehlak edir. Braziliya ümumi qəhvə istehlakında ilk ölkə oldu - ildə 2 191 596 ton. 9. BELÇİKA – İLDƏ 4,9 KQ (ADAMBAŞINA)  BELÇİKA QƏHVƏSİ  Belçika haqqında eşitdiyimiz zaman ağla vafli gəlir. Lakin bu millətin şokolada və qəhvəyə böyük həvəsi var. Vaxtilə müstəmləkə dövlətlərindən biri olan Belçika Konqo və Ruandada qəhvə plantasiyaları qurmuşdur. Hal-hazırda Belçikada hər yerdə qəhvə evləri var ki, bu da bu ölkəni ilk qəhvə istehlakçılarından birinə çevirir.  8. ALMANİYA – İLDƏ 5,2 KQ (ADAMBAŞINA) ALMANİYA QƏHVƏSİ  Almaniyada qəhvə populyasiyası 1673-cü ildə şimal limanlarında, ilk qəhvə evləri ortaya çıxanda başlamışdır. Kafe bir fincan isti qəhvə ilə ünsiyyət qurmaq üçün zənginlərin və intellektualların toplaşdığı bir məkana çevrildi. Hətta məşhur alman bəstəkarı İohann Sebastyan Bax da qəhvəni çox sevirdi. O, hər zaman qəhvə evlərə baş çəkib, hətta özündə: 'Əgər mən gündə qəhvənin heç olmasa üç kiçik fincanını içə bilmirəmsə, onda burulmuş qızardılmış keçi tikəsinə oxşayaram' – sözləri olan zarafatlı kantatanı da yaradıb. 7. DANİMARKA – İLDƏ 5,3 KQ (ADAMBAŞINA) DANİMARKA QƏHVƏSİ  Bu krallığın orta təbəəsi hər gün təxminən bir fincan yarım qəhvə içir. Danimarkada qəhvə qiyməti yüksəkdir, belə ki, bu porsiya danimarkalılar üçün təxminən bir krona başa gəlir. Digər Skandinaviya ölkələrində olduğu kimi, danimarkada da qəhvə hər yemək zamanı içilir. Danimarkada qəhvə - təntənəli gecələrdə və qəbullarda içilən əsas alkoqolsuz içki sayılır. Bu içkinin hazırlanması üçün 'Bodum' adlanan xüsusi çaydanlar da yaradılıb. 6. SERBİYA – 5,4 KQ (ADAMBAŞINA) SERB QƏHVƏSİ  Serblər türk qara qəhvəni rahat-lukum ilə içməyi çox sevirlər. Türk qəhvənin hazırlanması xüsusi bir prosesdir. Baxmayaraq ki, bu adi qəhvənin hazırlanmasından daha çox vaxt tələb edir, serblər bu reseptə daha üstünlük verirlər. 5. AVSTRİYA – 5,5 KQ (ADAMBAŞINA) AVSTRİYA QƏHVƏSİ  Hər kəs Avstriyanı valsların, klassik bəstəkarların və Vyana qəhvə evlərin doğma məkanı kimi tanıyır. İlk qəhvə evləri 1638-ci ildə açılmışdır. Bu günə qədər qəhvə evləri təkrarolunmaz atmosferə malik yerlər kimi tanınır. Burada qəhvə duzlu yeməklərlə və ya məşhur Linzer tortu kimi müxtəlif şirniyyatlarla müşayiət olunur. Avstriyalılar təkcə qəhvə içmək üçün deyil, həm də pulsuz qəzetləri oxumaq üçün buraya gəlməyi sevirlər. Vyanada təşrif buyurssanız, mütləq Karsemelangenin (və ya İmperator qarışığı) dadına baxın. O, bu cür hazırlanır: isti qəhvə yavaş-yavaş bal ilə yumurta sarısının qarışığına tökülür və qaymaqlı köpüklə bəzədilir. 4. SLOVENİYA – 5,1 KQ (ADAMBAŞINA) SLOVEN QƏHVƏSİ  Serbiyada olduğu kimi, Sloveniyada da Türkiyə resepti əsasında hazırlanmış qəhvə sevilir. Burada o 'Turska Kava' adlanır. Onu kiçik fincanlarda, bəzən süd və ya çalınmış qaymaqla içirlər. Sloveniya qəhvə evləri daha yaxşı 'Kavarana' adı ilə tanınır. Cəmi 2 milyon nəfər əhalisi olan Sloveniyada ümumi qəhvə istehlakı ildə 9,327 tona bərabərdir. 3. HOLLANDİYA – 6,7 KQ (ADAMBAŞINA)  HOLLAND QƏHVƏSİ  1616-cı ildə Avropada ilk dəfə olaraq hollandiyalılar Yəmndən gətirilmiş canlı qəhvə ağacları yetişdiriblər Sonradan, bu ağaclar sayəsində Hollandiya Avropaya ən böyük qəhvə tədarükçülərindən birinə çevrildi. Orta hesabla hollandiyalılar gündə 1.84 fincan içir. Qəhvə adətən 'Koffietijd' (və ya qəhvə fasiləsi) zamanı çərəzlər və şirniyyatlarla ilə içilir.  2. NORVEÇ - 7,2 KQ (ADAMBAŞINA)  NORVEÇ QƏHVƏSİ  Avropanın əksər ölkələrində olduğu kimi, Norveçdə də qəhvə ilk dəfə 18 əsrin əvvəllərində zəngin insanlar arasında məşhur bir içki halına gəldi. Baxmayaraq ki, o vaxt Norveç nisbətən kasıb və Danimarkanın protektoratı altında olan bir ölkə idi. Lakin, nədənsə, qəhvə ucuz idi və tez bir zaman böyük populyarlıq əldə etmişdir. Adətən norveçlilər qara qəhvəni səhər və şam yeməyindən sonra desertlə içirlər. Onlar həmçinin qonaqları şirniyyat və ya tort ilə qəhvə içmək üçün xüsusi olaraq dəvət edirlər. Orta norveçli gündə 2 fincan qəhvə içir.  1. FİNLANDİYA - 7,2 KQ (ADAMBAŞINA) FİN QƏHVƏSİ  Finlandiya qəhvə hər gün və bütün gün içmək. Təntənəli hallar üçün finnlər soyuq sandviç, çörək, çərəzlər, tortlar ilə 'isveç masası' təşkil edir. Finlandiya yüngül qovurulmuş qəhvə sevilir. Vaxtilə finlər öz evlərində yaşıl qəhvə dənlərini qızartmağa başlamışdırlar. Qəribəsi budur ki, bu resept qalıb və milli ənənəyə çevrilib. Finlilər də Serbiya və Sloveniyadaki kimi qəhvəni türksayağı içməyə sevirlər."
+
+        },
+        {
+            "id": 83,
+            "url": "https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-12.jpg",
+            "basliq": "ƏN BAHALI QƏHVƏ",
+            "tarix": "12.02.2022",
+            "baxis": "264",
+            "onsoz": " 'Arabika' adlı qəhvə dənələri fillərin nəcisindən əldə edilir.Qəhvə dənələri yem halında hazırlanır, xüsusi nəzarət altında saxlanılan fillərə uddurulur və daha sonra təkrar heyvanların nəcisindən...",
+            "mezmun": " 'Arabika' adlı qəhvə dənələri fillərin nəcisindən əldə edilir.Qəhvə dənələri yem halında hazırlanır, xüsusi nəzarət altında saxlanılan fillərə uddurulur və daha sonra təkrar heyvanların nəcisindən toplanaraq emal olunur. 'Black İvory' qəhvəsinin dadını təsirli edən filin mədə turşusudur. Bu qəhvə 15-70 saat ərzində həzm olunur. Eyni zamanda filin mədəsindəki digər maddələr bu məhsula xüsusi dad verir.Bu qəhvədən 1 fincan içmək istəyənlər təxminən 45-50 ABŞ dolları xəcrləməlidirlər. 'Black İvory'nin xüsusi dadının və qoxusunun olduğu deyilir. Fil nəcisindən istehsal olunan bu qəhvə dünya bazarında özünəməxsus yer tutur və onu digər qəhvə növləri ilə qarışdırmaq mümkün deyil. 'Black İvory'nin 1 kiloqramı 1100 ABŞ dollarına satılır və ən bahalı qəhvə növü hesab olunur. Dənələri filin nəcisindən toplandığı üçün onun istehsal prosesi uzun çəkir və bazara yalnız gündəlik 50 kiloqram mal çıxarmaq mümkün olur. Nəcisdə qəhvə emalı yalnız fillərə məxsus deyil. Dünyada xüsusi qaydada saxlanılan pişik, maral və yarasa növlərinin nəcisindən də qəhvə emal edilir."
+
+        },
+        {
+            "id": 84,
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-k09rYr60Pgh17rczkEd44EID4qqh1MkkA&usqp=CAU",
+            "basliq": "FİLTR QƏHVƏ NƏDİR?",
+            "tarix": "19.03.2022",
+            "baxis": "321",
+            "onsoz": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies maximus tristique. Proin sapien arcu, tincidunt eget mauris eget, interdum rutrum justo...",
+            "mezmun": "Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musbulum ultricies aliquam. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. morbi accumsan ipsum velit nam. Maecenas tempus, tellus eget condimentum rhoncus? Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus vitae sapien Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet. Duo inermis repudiandae an, harum mandamus qui in. No quo mazim doming facilisi, duo ea impetus suavitate interpretaris. No dictas scripta placerat per, ut graeco perfecto reprehendunt mea, cum illud numquam consetetur no. Pri an reque postea scriptorem, audiam conclusionemque per eu. An enim oblique has, graecis deserunt has no. Soleat laoreet posidonium an vel, delenit pertinax appellantur an est"
+
+        },
+        {
+            "id": 85,
+            "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/08/friends-drinking-coffee.jpg?quality=82&strip=1",
+            "basliq": "QƏHVƏNİN ZƏRƏRLƏRİ",
+            "tarix": "01.04.2022",
+            "baxis": "256",
+            "onsoz": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies maximus tristique. Proin sapien arcu, tincidunt eget mauris eget, interdum rutrum justo...",
+            "mezmun": "Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musbulum ultricies aliquam. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. morbi accumsan ipsum velit nam. Maecenas tempus, tellus eget condimentum rhoncus? Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus vitae sapien Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet. Duo inermis repudiandae an, harum mandamus qui in. No quo mazim doming facilisi, duo ea impetus suavitate interpretaris. No dictas scripta placerat per, ut graeco perfecto reprehendunt mea, cum illud numquam consetetur no. Pri an reque postea scriptorem, audiam conclusionemque per eu. An enim oblique has, graecis deserunt has no. Soleat laoreet posidonium an vel, delenit pertinax appellantur an est"
+
+        },
+        {
+            "id": 86,
+            "url": "https://media.istockphoto.com/photos/espresso-machine-picture-id923370822?k=20&m=923370822&s=170667a&w=0&h=YAcvT7iZ4BG2KDvSKRHLlpMlnD-1FyEMekbX9BP8k28=",
+            "basliq": "QƏHVƏ NECƏ HAZIRLANIR?",
+            "tarix": "15.04.2022",
+            "baxis": "357",
+            "onsoz": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies maximus tristique. Proin sapien arcu, tincidunt eget mauris eget, interdum rutrum justo...",
+            "mezmun": "Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musbulum ultricies aliquam. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. morbi accumsan ipsum velit nam. Maecenas tempus, tellus eget condimentum rhoncus? Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus vitae sapien Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet. Duo inermis repudiandae an, harum mandamus qui in. No quo mazim doming facilisi, duo ea impetus suavitate interpretaris. No dictas scripta placerat per, ut graeco perfecto reprehendunt mea, cum illud numquam consetetur no. Pri an reque postea scriptorem, audiam conclusionemque per eu. An enim oblique has, graecis deserunt has no. Soleat laoreet posidonium an vel, delenit pertinax appellantur an est"
+
+        }
+    ],
+    "qelyanalti": [
+        {
+            "id": 87,
+            "url": "https://globalassets.starbucks.com/assets/f9a4cd143c4342abbb4f60b7fab4e6df.jpg?impolicy=1by1_medium_630",
+            "adi": "Sendviç",
+            "qiymet": "5.80 ₼"
+        },
+        {
+            "id": 88,
+            "url": "https://globalassets.starbucks.com/assets/02ea801e3aca434fa2fcccfcd4adba8c.jpg?impolicy=1by1_medium_630",
+            "adi": "Xırtıldayan Qril Pendir",
+            "qiymet": "6.30 ₼"
+        },
+        {
+            "id": 89,
+            "url": "https://globalassets.starbucks.com/assets/29a78190283c40f0a7978baa7f637e05.jpg?impolicy=1by1_medium_630",
+            "adi": "Toyuq Sendviç",
+            "qiymet": "7.80 ₼"
+        },
+        {
+            "id": 90,
+            "url": "https://globalassets.starbucks.com/assets/a37c3ec673fa42f98f3b123a7d7ebbfe.jpg?impolicy=1by1_medium_630",
+            "adi": "Pastırmalı sendviç",
+            "qiymet": "7.30 ₼"
+        },
+        {
+            "id": 92,
+            "url": "https://globalassets.starbucks.com/assets/37470b5347354e6890025ae7e90f0fa4.jpg?impolicy=1by1_medium_630",
+            "adi": "Yumurtalı Sendviç",
+            "qiymet": "6.30 ₼"
+        },
+        {
+            "id": 93,
+            "url": "https://globalassets.starbucks.com/assets/39c8d371efed45f18ba0d21f59c6229a.jpg?impolicy=1by1_medium_630",
+            "adi": "Pendirli Sendviç",
+            "qiymet": "5.90 ₼"
+        }
+    ],
+    "box": [
+        {
+            "id": 95,
+            "url": "https://globalassets.starbucks.com/assets/b2a7ab59ca1c430f8e2726df52a6e6da.jpg?impolicy=1by1_medium_630",
+            "adi": "Yumurta Protein Box",
+            "qiymet": "9.30 ₼"
+        },
+        {
+            "id": 96,
+            "url": "https://globalassets.starbucks.com/assets/87caae0d7e7a46f9868b9e49208f6b02.jpg?impolicy=1by1_medium_630",
+            "adi": "Pendir Protein Box",
+            "qiymet": "10.50 ₼"
+        },
+        {
+            "id": 97,
+            "url": "https://globalassets.starbucks.com/assets/90710b7d65e942fd9de3418767d2a5a7.jpg?impolicy=1by1_medium_630",
+            "adi": "Avokado Protein Box",
+            "qiymet": "11.30 ₼"
+        },
+        {
+            "id": 98,
+            "url": "https://globalassets.starbucks.com/assets/41f2b8737c4e4ecabf507fa71599ad6e.jpg?impolicy=1by1_medium_630",
+            "adi": "Toyuq Protein Box",
+            "qiymet": "12.30 ₼"
+        },
+        {
+            "id": 99,
+            "url": "https://globalassets.starbucks.com/assets/8fe70ac5d94145319fdd6f23545c8aa1.jpg?impolicy=1by1_medium_630",
+            "adi": "Meyvə Protein Box",
+            "qiymet": "10.80 ₼"
+        },
+        {
+            "id": 100,
+            "url": "https://globalassets.starbucks.com/assets/85c505911d6a408fb93b8b0b069cc9ad.jpg?impolicy=1by1_medium_630",
+            "adi": "PB&J Protein Box",
+            "qiymet": "10.80 ₼"
+        }
+    ]
+}

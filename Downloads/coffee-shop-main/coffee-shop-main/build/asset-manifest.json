@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/coffee_shop/static/css/main.4d8d629c.css",
+    "main.js": "/coffee_shop/static/js/main.24b374dc.js",
+    "static/media/q.png": "/coffee_shop/static/media/q.e607b7d060e78744db20.png",
+    "static/media/bakcground2.jpg": "/coffee_shop/static/media/bakcground2.c90c6a4d7085077b6e64.jpg",
+    "static/media/PlayfairDisplay-Regular.otf": "/coffee_shop/static/media/PlayfairDisplay-Regular.fe9bc23c0eedd6602115.otf",
+    "static/media/bakcground1.jpg": "/coffee_shop/static/media/bakcground1.c80daa37add141ed6983.jpg",
+    "static/media/bg.jpg": "/coffee_shop/static/media/bg.c4b1b9c9f66a1ef63632.jpg",
+    "static/media/bg_01.png": "/coffee_shop/static/media/bg_01.6991b654ac11f23a643d.png",
+    "static/media/DessertScript.otf": "/coffee_shop/static/media/DessertScript.429ede4d793747a7d1fd.otf",
+    "static/media/Belwe Medium.otf": "/coffee_shop/static/media/Belwe Medium.fbf37f33618f83241f61.otf",
+    "static/media/img4.jpg": "/coffee_shop/static/media/img4.ca021aa905da3445e96f.jpg",
+    "static/media/AvantGardeI.otf": "/coffee_shop/static/media/AvantGardeI.62c3f681236a782b0aa2.otf",
+    "static/media/img5.jpg": "/coffee_shop/static/media/img5.20bf7ea45eeb7b5319e3.jpg",
+    "static/media/img2.jpg": "/coffee_shop/static/media/img2.45a6d45c856c2cdc1609.jpg",
+    "static/media/img1.jpg": "/coffee_shop/static/media/img1.693427af2ad8b9e33446.jpg",
+    "static/media/coffee2.png": "/coffee_shop/static/media/coffee2.c6737818dc63edbdec05.png",
+    "static/media/logo.svg": "/coffee_shop/static/media/logo.76baa358255cd151e7ae73a6c1628dca.svg",
+    "static/media/slick.svg": "/coffee_shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/coffee_shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/coffee_shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/coffee_shop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/coffee_shop/index.html",
+    "static/media/cart3.svg": "/coffee_shop/static/media/cart3.a06bb0ad577e94ba7a2e7b3156061a54.svg",
+    "static/media/person.svg": "/coffee_shop/static/media/person.57d3f43eabf757e8af6c563d8c9ecfb4.svg",
+    "main.4d8d629c.css.map": "/coffee_shop/static/css/main.4d8d629c.css.map",
+    "main.24b374dc.js.map": "/coffee_shop/static/js/main.24b374dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d8d629c.css",
+    "static/js/main.24b374dc.js"
+  ]
+}
