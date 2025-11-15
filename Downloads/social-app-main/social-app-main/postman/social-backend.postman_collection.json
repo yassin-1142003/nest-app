@@ -1,0 +1,438 @@
+{
+  "info": {
+    "name": "Social Backend",
+    "_postman_id": "e3bb6c8f-6c3b-4c41-9a8a-7e1a8a2ac001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:4000" },
+    { "key": "accessToken", "value": "" },
+    { "key": "postId", "value": "" },
+    { "key": "commentId", "value": "" },
+    { "key": "friendRequestId", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/register", "host": ["{{baseUrl}}"], "path": ["api","auth","register"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\",\n  \"name\": \"User Name\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "description": "Register a new user. Returns access token, refresh token, user data, and sends OTP code to email."
+          }
+        },
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/login", "host": ["{{baseUrl}}"], "path": ["api","auth","login"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "description": "Login with email and password. Returns access token and refresh token."
+          }
+        },
+        {
+          "name": "Google Sign In",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/google", "host": ["{{baseUrl}}"], "path": ["api","auth","google"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idToken\": \"GOOGLE_ID_TOKEN\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Refresh Token",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/refresh", "host": ["{{baseUrl}}"], "path": ["api","auth","refresh"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refreshToken\": \"{{refreshToken}}\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/logout", "host": ["{{baseUrl}}"], "path": ["api","auth","logout"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refreshToken\": \"{{refreshToken}}\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Update Password",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{accessToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/auth/password", "host": ["{{baseUrl}}"], "path": ["api","auth","password"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"oldPassword\": \"password123\",\n  \"newPassword\": \"newpassword123\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Email Verification - Resend OTP",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/resend-verification", "host": ["{{baseUrl}}"], "path": ["api","auth","resend-verification"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "description": "Resend OTP code to email. No token required."
+          }
+        },
+        {
+          "name": "Email Verification - Verify with OTP",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/verify-email-otp", "host": ["{{baseUrl}}"], "path": ["api","auth","verify-email-otp"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\",\n  \"otp\": \"123456\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "description": "Verify email with OTP code. No token required."
+          }
+        },
+        {
+          "name": "Email Verification - Verify with Token (Legacy)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/verify-signup?token=YOUR_TOKEN",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","auth","verify-signup"],
+              "query": [
+                { "key": "token", "value": "YOUR_TOKEN", "description": "Token from email verification link" }
+              ]
+            },
+            "description": "Legacy token-based verification. Use OTP method instead."
+          }
+        },
+        {
+          "name": "Forgot Password",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/forgot", "host": ["{{baseUrl}}"], "path": ["api","auth","forgot"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Reset Password",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/reset", "host": ["{{baseUrl}}"], "path": ["api","auth","reset"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"RESET_TOKEN\",\n  \"newPassword\": \"newpassword123\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "2FA - Setup",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/2fa/setup", "host": ["{{baseUrl}}"], "path": ["api","auth","2fa","setup"] }
+          }
+        },
+        {
+          "name": "2FA - Enable",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{accessToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/auth/2fa/enable", "host": ["{{baseUrl}}"], "path": ["api","auth","2fa","enable"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"code\": \"123456\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "2FA - Disable",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{accessToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/auth/2fa/disable", "host": ["{{baseUrl}}"], "path": ["api","auth","2fa","disable"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"code\": \"123456\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Email Update - Request",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{accessToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/auth/email/update-request", "host": ["{{baseUrl}}"], "path": ["api","auth","email","update-request"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"newEmail\": \"new@example.com\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Email Update - Verify",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/email/verify?token=YOUR_TOKEN",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","auth","email","verify"],
+              "query": [
+                { "key": "token", "value": "YOUR_TOKEN", "description": "Token from email change link" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Email 2FA - Request",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/email-2fa/request", "host": ["{{baseUrl}}"], "path": ["api","auth","email-2fa","request"] }
+          }
+        },
+        {
+          "name": "Email 2FA - Enable",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{accessToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/auth/email-2fa/enable", "host": ["{{baseUrl}}"], "path": ["api","auth","email-2fa","enable"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"code\": \"123456\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Email 2FA - Disable",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{accessToken}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/auth/email-2fa/disable", "host": ["{{baseUrl}}"], "path": ["api","auth","email-2fa","disable"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"code\": \"123456\"\n}",
+              "options": { "raw": { "language": "json" } }
+            }
+          }
+        },
+        {
+          "name": "Get Sessions",
+          "request": {
+            "method": "GET",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ],
+            "url": { "raw": "{{baseUrl}}/api/auth/sessions", "host": ["{{baseUrl}}"], "path": ["api","auth","sessions"] }
+          }
+        },
+        {
+          "name": "Revoke Session",
+          "request": {
+            "method": "DELETE",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/sessions/:sessionId",
+              "host": ["{{baseUrl}}"],
+              "path": ["api","auth","sessions",":sessionId"],
+              "variable": [
+                { "key": "sessionId", "value": "SESSION_ID" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "item": [
+        {
+          "name": "Me",
+          "request": {
+            "method": "GET",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ],
+            "url": { "raw": "{{baseUrl}}/api/users/me", "host": ["{{baseUrl}}"], "path": ["api","users","me"] }
+          }
+        },
+        {
+          "name": "Update Me",
+          "request": {
+            "method": "PATCH",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/users/me", "host": ["{{baseUrl}}"], "path": ["api","users","me"] },
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"New Name\"\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Posts",
+      "item": [
+        {
+          "name": "Create Post",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/posts", "host": ["{{baseUrl}}"], "path": ["api","posts"] },
+            "body": { "mode": "raw", "raw": "{\n  \"content\": \"Hello\",\n  \"media\": []\n}" }
+          }
+        },
+        {
+          "name": "Get Post by Id",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/api/posts/{{postId}}", "host": ["{{baseUrl}}"], "path": ["api","posts","{{postId}}"] }
+          }
+        },
+        {
+          "name": "Update Post",
+          "request": {
+            "method": "PATCH",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/posts/{{postId}}", "host": ["{{baseUrl}}"], "path": ["api","posts","{{postId}}"] },
+            "body": { "mode": "raw", "raw": "{\n  \"content\": \"Updated\"\n}" }
+          }
+        },
+        {
+          "name": "Freeze Post (admin)",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/posts/{{postId}}/freeze", "host": ["{{baseUrl}}"], "path": ["api","posts","{{postId}}","freeze"] },
+            "body": { "mode": "raw", "raw": "{\n  \"reason\": \"violation\"\n}" }
+          }
+        },
+        {
+          "name": "Unfreeze Post (admin)",
+          "request": { "method": "POST", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/posts/{{postId}}/unfreeze", "host": ["{{baseUrl}}"], "path": ["api","posts","{{postId}}","unfreeze"] } }
+        },
+        {
+          "name": "Hard Delete Post (admin)",
+          "request": { "method": "DELETE", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/posts/{{postId}}/hard", "host": ["{{baseUrl}}"], "path": ["api","posts","{{postId}}","hard"] } }
+        }
+      ]
+    },
+    {
+      "name": "Comments",
+      "item": [
+        {
+          "name": "Create Comment",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/comments", "host": ["{{baseUrl}}"], "path": ["api","comments"] },
+            "body": { "mode": "raw", "raw": "{\n  \"postId\": \"{{postId}}\",\n  \"content\": \"Nice\"\n}" }
+          }
+        },
+        {
+          "name": "Get Comment by Id",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/api/comments/{{commentId}}", "host": ["{{baseUrl}}"], "path": ["api","comments","{{commentId}}"] } }
+        },
+        {
+          "name": "Get Comment with Replies",
+          "request": { "method": "GET", "url": { "raw": "{{baseUrl}}/api/comments/{{commentId}}/with-replies", "host": ["{{baseUrl}}"], "path": ["api","comments","{{commentId}}","with-replies"] } }
+        },
+        {
+          "name": "Update Comment",
+          "request": { "method": "PATCH", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ], "url": { "raw": "{{baseUrl}}/api/comments/{{commentId}}", "host": ["{{baseUrl}}"], "path": ["api","comments","{{commentId}}"] }, "body": { "mode": "raw", "raw": "{\n  \"content\": \"Edited\"\n}" } }
+        },
+        {
+          "name": "Freeze Comment (admin)",
+          "request": { "method": "POST", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ], "url": { "raw": "{{baseUrl}}/api/comments/{{commentId}}/freeze", "host": ["{{baseUrl}}"], "path": ["api","comments","{{commentId}}","freeze"] }, "body": { "mode": "raw", "raw": "{\n  \"reason\": \"violation\"\n}" } }
+        },
+        {
+          "name": "Unfreeze Comment (admin)",
+          "request": { "method": "POST", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/comments/{{commentId}}/unfreeze", "host": ["{{baseUrl}}"], "path": ["api","comments","{{commentId}}","unfreeze"] } }
+        },
+        {
+          "name": "Hard Delete Comment (admin)",
+          "request": { "method": "DELETE", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/comments/{{commentId}}/hard", "host": ["{{baseUrl}}"], "path": ["api","comments","{{commentId}}","hard"] } }
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "item": [
+        { "name": "Block User", "request": { "method": "POST", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/social/block/{{userId}}", "host": ["{{baseUrl}}"], "path": ["api","social","block","{{userId}}"] } } },
+        { "name": "Unblock User", "request": { "method": "DELETE", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/social/block/{{userId}}", "host": ["{{baseUrl}}"], "path": ["api","social","block","{{userId}}"] } } },
+        { "name": "Send Friend Request", "request": { "method": "POST", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/social/friend-requests/{{userId}}", "host": ["{{baseUrl}}"], "path": ["api","social","friend-requests","{{userId}}"] } } },
+        { "name": "Accept Friend Request", "request": { "method": "POST", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/social/friend-requests/{{friendRequestId}}/accept", "host": ["{{baseUrl}}"], "path": ["api","social","friend-requests","{{friendRequestId}}","accept"] } } },
+        { "name": "Delete Friend Request", "request": { "method": "DELETE", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/social/friend-requests/{{friendRequestId}}", "host": ["{{baseUrl}}"], "path": ["api","social","friend-requests","{{friendRequestId}}"] } } },
+        { "name": "Unfriend", "request": { "method": "DELETE", "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" } ], "url": { "raw": "{{baseUrl}}/api/social/friends/{{userId}}", "host": ["{{baseUrl}}"], "path": ["api","social","friends","{{userId}}"] } } }
+      ]
+    },
+    {
+      "name": "Email",
+      "item": [
+        {
+          "name": "Send Email (rate-limited)",
+          "request": {
+            "method": "POST",
+            "header": [ { "key": "Authorization", "value": "Bearer {{accessToken}}" }, { "key": "Content-Type", "value": "application/json" } ],
+            "url": { "raw": "{{baseUrl}}/api/email/send", "host": ["{{baseUrl}}"], "path": ["api","email","send"] },
+            "body": { "mode": "raw", "raw": "{\n  \"to\": \"dest@test.com\",\n  \"subject\": \"Test\",\n  \"template\": \"verify-email\",\n  \"context\": { \"verifyUrl\": \"https://example.com\" },\n  \"tags\": [\"test\"]\n}" }
+          }
+        }
+      ]
+    }
+  ]
+}
